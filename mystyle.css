@@ -1,0 +1,667 @@
+@font-face {
+    font-family: 'Lazy Days';
+    src: url(resouce/Lazy\ Days.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gruvidelia';
+    src: url(resouce/Gruvidelia.ttf) format('truetype');
+}
+
+/*
+  tagใหม่ 3 tag คือ
+   1. white-space: nowrap; คือ ข้อความทั้งหมดในองค์ประกอบจะไม่ถูกตัดบรรทัดใหม่ แม้จะเกินความกว้างขององค์ประกอบ
+   2. text-shadow: คือ สร้างเงาให้ตัวหนังสือ
+   3. word-spacing: คือ ระยะห่างระหว่างคำ
+  */
+
+body {
+    background-color: beige;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    text-align: center;
+    position: relative;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 720px;
+    left: -50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.sin {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #383535;
+    font-size: 23px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 690px;
+    left: -45%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.id {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 730px;
+    left: 117%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.pic1 {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    top: 60px; 
+}
+
+.about {
+    font-family: 'Lazy Days', sans-serif;
+    color: #b8401c;
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    margin: 0;
+    text-shadow: 15px 10px 0px #000000;
+}
+
+.detail1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 325px; /*ตอนแรกเป็น-25*/
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-shadow: 2px 2px 1px #c1bdb8;
+}
+
+.detail2 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 38px;
+    left: -50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.detail3 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 38px;
+    left: -10%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.detail4 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 38px;
+    left: 23%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.detail5 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 38px;
+    left: 64%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.detail6 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 38px;
+    left: 103%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.detail7 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 38px;
+    left: 145%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.line1 {
+    width: 215%;
+    /*ความยาวเส้น*/
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line2 {
+    width: 215%;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.picme {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    bottom: -490px;
+    right: 80%;
+    transform: translateX(20%);
+    border-radius: 30px;
+}
+
+.decor1 {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: -155px;
+    right: 27%;
+    transform: translateX(20%);
+}
+
+.decor2 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: -675px;
+    right: 140%;
+    transform: translateX(20%);
+}
+
+.decor3 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: -675px;
+    right: 52%;
+    transform: translateX(20%);
+}
+
+.decor4 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: -1025px;
+    right: 139%;
+    transform: translateX(20%);
+    border-radius: 30px;
+}
+
+.decor5 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: -1025px;
+    right: 50%;
+    transform: translateX(20%);
+    border-radius: 30px;
+}
+
+.decor {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    bottom: -230px;
+    right: -50%;
+    transform: translateX(20%);
+    border-radius: 30px;
+}
+
+.hello {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #b8401c;
+    font-size: 120px;
+    position: absolute;
+    bottom: -290px;
+    left: 50%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 7px 7px 0px #283b2a;
+}
+
+.name {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #459485;
+    font-size: 25px;
+    font-weight: 300;
+    border: 2px solid #459485;
+    border-radius: 15px;
+    width: 90px;
+    box-shadow: 5px 5px 0px #459485;
+    position: absolute;
+    bottom: -270px;
+    left: 45%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.name1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 100;
+    word-spacing: 10px;
+    position: absolute;
+    bottom: -270px;
+    left: 45%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.nick {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #459485;
+    font-size: 25px;
+    font-weight: 300;
+    border: 2px solid #459485;
+    border-radius: 15px;
+    width: 150px;
+    box-shadow: 5px 5px 0px #459485;
+    position: absolute;
+    bottom: -340px;
+    left: 37%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.nick1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 100;
+    position: absolute;
+    bottom: -340px;
+    left: 86%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.birth {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #459485;
+    font-size: 26px;
+    font-weight: 300;
+    border: 2px solid #459485;
+    border-radius: 15px;
+    width: 145px;
+    box-shadow: 5px 5px 0px #459485;
+    position: absolute;
+    bottom: -410px;
+    left: 38%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.birth1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 100;
+    word-spacing: 7px;
+    position: absolute;
+    bottom: -410px;
+    left: 67%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.age {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #459485;
+    font-size: 25px;
+    font-weight: 300;
+    border: 2px solid #459485;
+    border-radius: 15px;
+    width: 90px;
+    box-shadow: 5px 5px 0px #459485;
+    position: absolute;
+    bottom: -470px;
+    left: 45%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.age1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 100;
+    word-spacing: 7px;
+    position: absolute;
+    bottom: -470px;
+    left: 64%;
+    transform: translateX(70%);
+    white-space: nowrap;
+}
+
+.line3 {
+    width: 140%;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+    position: absolute;
+    bottom: -550px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.video {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #b8401c;
+    font-size: 60px;
+    position: absolute;
+    bottom: -700px;
+    left: 25%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 5px 5px 0px rgba(37, 36, 36, 0.9);
+}
+
+.clip {
+    width: 85%;
+    height: auto;
+    position: absolute;
+    bottom: -910px;
+    right: -30%;
+    transform: translateX(20%);
+    border-radius: 30px;
+}
+
+.edu {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #b8401c;
+    font-size: 60px;
+    position: absolute;
+    bottom: -700px;
+    right: 95%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 5px 5px 0px rgba(37, 36, 36, 0.9);
+}
+
+#content {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.pri {
+    color: #6f6891;
+    position: absolute;
+    bottom: -725px;
+    right: 120%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 4px 4px 5px #8f88b7;
+}
+
+.pri1 {
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    bottom: -760px;
+    right: 112%;
+    transform: translateX(20%);
+    white-space: nowrap;
+}
+
+.sec {
+    color: #6f6891;
+    position: absolute;
+    bottom: -795px;
+    right: 116%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 4px 4px 5px #8f88b7;
+}
+
+.sec1 {
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    bottom: -830px;
+    right: 109%;
+    transform: translateX(20%);
+    white-space: nowrap;
+}
+
+.uni {
+    color: #6f6891;
+    position: absolute;
+    bottom: -865px;
+    right: 115%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 4px 4px 5px #8f88b7;
+}
+
+.uni1 {
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    bottom: -900px;
+    right: 115%;
+    transform: translateX(20%);
+    white-space: nowrap;
+}
+
+.contact {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #b8401c;
+    font-size: 60px;
+    position: absolute;
+    bottom: -1050px;
+    left: 39%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 5px 5px 0px rgba(37, 36, 36, 0.9);
+}
+
+.hobbies {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #b8401c;
+    font-size: 60px;
+    position: absolute;
+    bottom: -1050px;
+    right: 105%;
+    transform: translateX(20%);
+    white-space: nowrap;
+    text-shadow: 5px 5px 0px rgba(37, 36, 36, 0.9);
+}
+
+.pic2, .pic3, .pic4 {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    bottom: -1140px;
+    box-shadow: 0 0 0 1.5px #000000; 
+    transform: translateX(20%);
+}
+
+.pic2 {
+    right: 132%;
+}
+
+.pic3 {
+    right: 107%;
+}
+
+.pic4 {
+    right: 82%;
+}
+
+.d {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    word-spacing: 10px;
+    position: absolute;
+    bottom: -1200px;
+    transform: translateX(20%);
+    white-space: nowrap;
+    right: 135%;
+}
+
+.mo{
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    word-spacing: 10px;
+    position: absolute;
+    bottom: -1200px;
+    transform: translateX(20%);
+    white-space: nowrap;
+    right: 109%;
+}
+
+.mu {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    word-spacing: 10px;
+    position: absolute;
+    bottom: -1200px;
+    transform: translateX(20%);
+    white-space: nowrap;
+    right: 84%;
+}
+
+.email {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    bottom: -1100px;
+    right: 45%;
+    transform: translateX(20%);
+}
+
+.email1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    position: absolute;
+    bottom: -1095px;
+    transform: translateX(20%);
+    white-space: nowrap;
+    right: -6%;
+}
+
+.tel {
+    width: 16%;
+    height: auto;
+    position: absolute;
+    bottom: -1165px;
+    right: 44%;
+    transform: translateX(20%);
+}
+
+.tel1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    position: absolute;
+    bottom: -1160px;
+    transform: translateX(20%);
+    white-space: nowrap;
+    right: 21%;
+}
+
+.detail8 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    bottom: -1290px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.line4 {
+    width: 215%;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+    position: absolute;
+    bottom: -1250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line5 {
+    width: 215%;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+    position: absolute;
+    bottom: -1300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
