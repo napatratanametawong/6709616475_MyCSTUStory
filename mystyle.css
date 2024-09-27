@@ -24,6 +24,20 @@ body {
     align-items: center;
 }
 
+nav {
+    font-family: 'Gruvidelia', sans-serif;
+    background-color: #b8401c;
+    margin: 0;
+    text-align: right; 
+    padding: 25px;
+    box-shadow:7px 5px 0px #000000 ;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
 .page {
     text-align: center;
     position: relative;
@@ -32,42 +46,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.cs {
-    font-family: 'Gruvidelia', sans-serif;
-    color: #000000;
-    font-size: 25px;
-    font-weight: 500;
-    position: absolute;
-    bottom: 720px;
-    left: -50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-}
-
-.sin {
-    font-family: 'Gruvidelia', sans-serif;
-    color: #383535;
-    font-size: 23px;
-    font-weight: 100;
-    position: absolute;
-    bottom: 690px;
-    left: -45%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-}
-
-.id {
-    font-family: 'Gruvidelia', sans-serif;
-    color: #000000;
-    font-size: 20px;
-    font-weight: 500;
-    position: absolute;
-    bottom: 730px;
-    left: 117%;
-    transform: translateX(70%);
-    white-space: nowrap;
 }
 
 .pic1 {
