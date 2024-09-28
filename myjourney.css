@@ -43,3 +43,10 @@ nav a {
 nav a:hover {
     color: rgb(243, 217, 182);
 }
+
+.pic1 {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    top: -10px; 
+}

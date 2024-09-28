@@ -8,13 +8,6 @@
     src: url(resouce/Gruvidelia.ttf) format('truetype');
 }
 
-/*
-  tagใหม่ 3 tag คือ
-   1. white-space: nowrap; คือ ข้อความทั้งหมดในองค์ประกอบจะไม่ถูกตัดบรรทัดใหม่ แม้จะเกินความกว้างขององค์ประกอบ
-   2. text-shadow: คือ สร้างเงาให้ตัวหนังสือ
-   3. word-spacing: คือ ระยะห่างระหว่างคำ
-  */
-
 body {
     background-color: beige;
     margin: 0;
@@ -98,7 +91,7 @@ nav a:hover {
     font-size: 30px;
     font-weight: 500;
     position: absolute;
-    bottom: 325px; /*ตอนแรกเป็น-25*/
+    bottom: 325px;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
@@ -179,7 +172,6 @@ nav a:hover {
 
 .line1 {
     width: 215%;
-    /*ความยาวเส้น*/
     height: 2px;
     background-color: #000000;
     margin: 20px 0;
