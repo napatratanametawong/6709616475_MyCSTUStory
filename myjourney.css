@@ -8,6 +8,16 @@
     src: url(resouce/Gruvidelia.ttf) format('truetype');
 }
 
+
+body {
+    background-color: beige;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav {
     font-family: 'Gruvidelia', sans-serif;
     background-color: #b8401c;
