@@ -58,7 +58,7 @@ nav a:hover {
 
 header {
     text-align: center;
-    position: relative;
+    position: absolute;
     width: 750px;
     display: flex;
     flex-direction: column;
@@ -206,8 +206,8 @@ main {
     margin-left: 100px;
     white-space: nowrap;
     text-shadow: 7px 7px 0px #283b2a;
-    position: absolute; /* ใช้ absolute positioning */
-    top: 1860px; /* ปรับตามต้องการเพื่อขยับขึ้น */
+    position: absolute; 
+    top: 1860px; 
     position: absolute;
 }
 
@@ -215,11 +215,11 @@ main {
     font-family: 'Gruvidelia', sans-serif;
     color: #000000;
     font-size: 25px;
-    margin-right: 200px; /* ขยับไปทางขวา */
-    margin-left: 0; /* ยกเลิกการใช้มาร์จินด้านซ้าย */
+    margin-right: 200px;
+    margin-left: 0;
     width: fit-content;
-    position: absolute; /* ใช้ absolute positioning */
-    top: 1970px; /* ปรับตามต้องการเพื่อขยับขึ้น */
+    position: absolute; 
+    top: 1970px; 
 }
 
 .topic4 {
@@ -229,8 +229,8 @@ main {
     margin-left: 100px;
     white-space: nowrap;
     text-shadow: 7px 7px 0px #283b2a;
-    position: absolute; /* ใช้ absolute positioning */
-    top: 2090px; /* ปรับตามต้องการเพื่อขยับขึ้น */
+    position: absolute;
+    top: 2090px;
     position: absolute;
 }
 
@@ -238,9 +238,9 @@ main {
     font-family: 'Gruvidelia', sans-serif;
     color: #000000;
     font-size: 25px;
-    margin-right: 200px; /* ขยับไปทางขวา */
-    margin-left: 0; /* ยกเลิกการใช้มาร์จินด้านซ้าย */
+    margin-right: 200px;
+    margin-left: 0;
     width: fit-content;
-    position: absolute; /* ใช้ absolute positioning */
-    top: 2210px; /* ปรับตามต้องการเพื่อขยับขึ้น */
+    position: absolute;
+    top: 2210px; 
 }
