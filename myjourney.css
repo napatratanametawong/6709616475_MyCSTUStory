@@ -54,9 +54,27 @@ nav a:hover {
     color: rgb(243, 217, 182);
 }
 
-.pic1 {
+header {
+    text-align: center;
+    position: relative;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Lazy Days', sans-serif;
+    color: #b8401c;
+    font-size: 150px;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-65%, -50%);
+    text-align: center;
     width: 100%;
-    height: auto;
-    position: relative; 
-    top: -10px; 
+    white-space: nowrap;
+    margin: 0;
+    text-shadow: 15px 10px 0px #000000;
 }
