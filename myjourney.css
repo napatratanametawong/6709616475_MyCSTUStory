@@ -221,3 +221,15 @@ main {
     position: absolute; /* ใช้ absolute positioning */
     top: 1970px; /* ปรับตามต้องการเพื่อขยับขึ้น */
 }
+
+.topic4 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #b8401c;
+    font-size: 60px;
+    margin-left: 100px;
+    white-space: nowrap;
+    text-shadow: 7px 7px 0px #283b2a;
+    position: absolute; /* ใช้ absolute positioning */
+    top: 2090px; /* ปรับตามต้องการเพื่อขยับขึ้น */
+    position: absolute;
+}
