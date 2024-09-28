@@ -128,7 +128,6 @@ div span {
 }
 
 .container {
-    position: sticky;
     background-color: #b8401c;
     border-radius: 20px;
     box-shadow: 2px 2px 10px #000000;
