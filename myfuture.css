@@ -134,3 +134,35 @@ container {
     white-space: nowrap;
     margin-top: -15px;
 }
+
+.text {
+    text-align: left;
+}
+
+.image1-container {
+    width: 48%;
+    float: none;
+    text-align: center;
+}
+
+.image1-container img {
+    max-width: 100%;
+    margin-top: -20px;
+    margin-left: 130px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image2-container {
+    width: 45%;
+    float: none;
+    text-align: center;
+}
+
+.image2-container img {
+    max-width: 100%;
+    margin-top: -25px;
+    margin-left: 130px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
