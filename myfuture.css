@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Lazy Days';
+    src: url(resouce/Lazy\ Days.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gruvidelia';
+    src: url(resouce/Gruvidelia.ttf) format('truetype');
+}
+
+
+body {
+    background-color: beige;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+nav {
+    font-family: 'Gruvidelia', sans-serif;
+    background-color: #b8401c;
+    margin: 0;
+    text-align: right; 
+    padding: 25px;
+    box-shadow:7px 5px 0px #000000 ;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+nav h1 {
+    margin: 0;
+    color: whitesmoke;
+    text-shadow: 3px 3px 0px rgb(16, 16, 14);
+    font-size: 2.0em;
+    margin-top: -10px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+nav a {
+    margin-right: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(243, 217, 182);
+    text-shadow: 1px 2px 2px #000000;
+}
