@@ -114,6 +114,18 @@ div {
     width: 100%;
 }
 
+
+div span {
+    width: 93%;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .container {
     position: sticky;
     background-color: #b8401c;
