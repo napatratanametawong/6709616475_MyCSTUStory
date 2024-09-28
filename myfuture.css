@@ -80,3 +80,16 @@ header h1 {
     margin: 0;
     text-shadow: 15px 10px 0px #000000;
 }
+
+header h3 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: 54%;
+    left: 56%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-shadow: 2px 2px 1px #efc1b3;
+}
