@@ -163,3 +163,14 @@ main {
     text-shadow: 7px 7px 0px #283b2a;
     position: relative;
 }
+
+.ul1 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    margin-right: 200px; /* ขยับไปทางขวา */
+    margin-left: 0; /* ยกเลิกการใช้มาร์จินด้านขวา */
+    width: fit-content;
+    position: relative;
+    top: -50px;
+}
