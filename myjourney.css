@@ -233,3 +233,14 @@ main {
     top: 2090px; /* ปรับตามต้องการเพื่อขยับขึ้น */
     position: absolute;
 }
+
+.ul4 {
+    font-family: 'Gruvidelia', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    margin-right: 200px; /* ขยับไปทางขวา */
+    margin-left: 0; /* ยกเลิกการใช้มาร์จินด้านซ้าย */
+    width: fit-content;
+    position: absolute; /* ใช้ absolute positioning */
+    top: 2210px; /* ปรับตามต้องการเพื่อขยับขึ้น */
+}
