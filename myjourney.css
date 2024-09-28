@@ -125,3 +125,11 @@ div {
     height: 1px;
     margin-top: 875px;
 }
+
+.decor {
+    font-family: 'Gruvidelia', sans-serif;
+    color: white;
+    font-size: 25px;
+    white-space: nowrap;
+    margin-top: -15px;
+}
