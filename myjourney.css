@@ -244,3 +244,19 @@ main {
     position: absolute;
     top: 2210px; 
 }
+
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    clear: both;
+    margin-top: 3300px;
+    margin-left: 100px;
+}
+
+footer img {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+}
